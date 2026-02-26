@@ -1,0 +1,3225 @@
+{
+  "title": "Bible in a Year (Fr. Mike Schmitz)",
+  "startDate": "2026-02-26",
+  "days": [
+    {
+      "dayNumber": 1,
+      "title": "Day 1",
+      "readings": [
+        "Genesis 1-2",
+        "Psalm 19"
+      ]
+    },
+    {
+      "dayNumber": 2,
+      "title": "Day 2",
+      "readings": [
+        "Genesis 3-4",
+        "Psalm 104"
+      ]
+    },
+    {
+      "dayNumber": 3,
+      "title": "Day 3",
+      "readings": [
+        "Genesis 5-6",
+        "Psalm 136"
+      ]
+    },
+    {
+      "dayNumber": 4,
+      "title": "Day 4",
+      "readings": [
+        "Genesis 7-9",
+        "Psalm 1"
+      ]
+    },
+    {
+      "dayNumber": 5,
+      "title": "Day 5",
+      "readings": [
+        "Genesis 10-11",
+        "Psalm 2"
+      ]
+    },
+    {
+      "dayNumber": 6,
+      "title": "Day 6",
+      "readings": [
+        "Genesis 12-13",
+        "Job 1-2",
+        "Proverbs 1:1-7"
+      ]
+    },
+    {
+      "dayNumber": 7,
+      "title": "Day 7",
+      "readings": [
+        "Genesis 14-15",
+        "Job 3-4",
+        "Proverbs 1:8-19"
+      ]
+    },
+    {
+      "dayNumber": 8,
+      "title": "Day 8",
+      "readings": [
+        "Genesis 16-17",
+        "Job 5-6",
+        "Proverbs 1:20-33"
+      ]
+    },
+    {
+      "dayNumber": 9,
+      "title": "Day 9",
+      "readings": [
+        "Genesis 18-19",
+        "Job 7-8",
+        "Proverbs 2:1-5"
+      ]
+    },
+    {
+      "dayNumber": 10,
+      "title": "Day 10",
+      "readings": [
+        "Genesis 20-21",
+        "Job 9-10",
+        "Proverbs 2:6-8"
+      ]
+    },
+    {
+      "dayNumber": 11,
+      "title": "Day 11",
+      "readings": [
+        "Genesis 22-23",
+        "Job 11-12",
+        "Proverbs 2:9-15"
+      ]
+    },
+    {
+      "dayNumber": 12,
+      "title": "Day 12",
+      "readings": [
+        "Genesis 24",
+        "Job 13-14",
+        "Proverbs 2:16-19"
+      ]
+    },
+    {
+      "dayNumber": 13,
+      "title": "Day 13",
+      "readings": [
+        "Genesis 25-26",
+        "Job 15-16",
+        "Proverbs 2:20-22"
+      ]
+    },
+    {
+      "dayNumber": 14,
+      "title": "Day 14",
+      "readings": [
+        "Genesis 27-28",
+        "Job 17-18",
+        "Proverbs 3:1-4"
+      ]
+    },
+    {
+      "dayNumber": 15,
+      "title": "Day 15",
+      "readings": [
+        "Genesis 29-30",
+        "Job 19-20",
+        "Proverbs 3:5-8"
+      ]
+    },
+    {
+      "dayNumber": 16,
+      "title": "Day 16",
+      "readings": [
+        "Genesis 31-32",
+        "Job 21-22",
+        "Proverbs 3:9-12"
+      ]
+    },
+    {
+      "dayNumber": 17,
+      "title": "Day 17",
+      "readings": [
+        "Genesis 33-34",
+        "Job 23-24",
+        "Proverbs 3:13-18"
+      ]
+    },
+    {
+      "dayNumber": 18,
+      "title": "Day 18",
+      "readings": [
+        "Genesis 35-36",
+        "Job 25-26",
+        "Proverbs 3:19-24"
+      ]
+    },
+    {
+      "dayNumber": 19,
+      "title": "Day 19",
+      "readings": [
+        "Genesis 37",
+        "Job 27-28",
+        "Proverbs 3:25-27"
+      ]
+    },
+    {
+      "dayNumber": 20,
+      "title": "Day 20",
+      "readings": [
+        "Genesis 38",
+        "Job 29-30",
+        "Proverbs 3:28-32"
+      ]
+    },
+    {
+      "dayNumber": 21,
+      "title": "Day 21",
+      "readings": [
+        "Genesis 39-40",
+        "Job 31-32",
+        "Proverbs 3:33-35"
+      ]
+    },
+    {
+      "dayNumber": 22,
+      "title": "Day 22",
+      "readings": [
+        "Genesis 41-42",
+        "Job 33-34",
+        "Proverbs 4:1-9"
+      ]
+    },
+    {
+      "dayNumber": 23,
+      "title": "Day 23",
+      "readings": [
+        "Genesis 43-44",
+        "Job 35-36",
+        "Proverbs 4:10-19"
+      ]
+    },
+    {
+      "dayNumber": 24,
+      "title": "Day 24",
+      "readings": [
+        "Genesis 45-46",
+        "Job 37-38",
+        "Proverbs 4:20-27"
+      ]
+    },
+    {
+      "dayNumber": 25,
+      "title": "Day 25",
+      "readings": [
+        "Genesis 47-48",
+        "Job 39-40",
+        "Psalm 16"
+      ]
+    },
+    {
+      "dayNumber": 26,
+      "title": "Day 26",
+      "readings": [
+        "Genesis 49-50",
+        "Job 41-42",
+        "Psalm 17"
+      ]
+    },
+    {
+      "dayNumber": 27,
+      "title": "Day 27",
+      "readings": [
+        "Exodus 1-2",
+        "Leviticus 1",
+        "Psalm 44"
+      ]
+    },
+    {
+      "dayNumber": 28,
+      "title": "Day 28",
+      "readings": [
+        "Exodus 3",
+        "Leviticus 2-3",
+        "Psalm 45"
+      ]
+    },
+    {
+      "dayNumber": 29,
+      "title": "Day 29",
+      "readings": [
+        "Exodus 4-5",
+        "Leviticus 4",
+        "Psalm 46"
+      ]
+    },
+    {
+      "dayNumber": 30,
+      "title": "Day 30",
+      "readings": [
+        "Exodus 6-7",
+        "Leviticus 5",
+        "Psalm 47"
+      ]
+    },
+    {
+      "dayNumber": 31,
+      "title": "Day 31",
+      "readings": [
+        "Exodus 8",
+        "Leviticus 6",
+        "Psalm 48"
+      ]
+    },
+    {
+      "dayNumber": 32,
+      "title": "Day 32",
+      "readings": [
+        "Exodus 9",
+        "Leviticus 7",
+        "Psalm 49"
+      ]
+    },
+    {
+      "dayNumber": 33,
+      "title": "Day 33",
+      "readings": [
+        "Exodus 10-11",
+        "Leviticus 8",
+        "Psalm 50"
+      ]
+    },
+    {
+      "dayNumber": 34,
+      "title": "Day 34",
+      "readings": [
+        "Exodus 12",
+        "Leviticus 9",
+        "Psalm 114"
+      ]
+    },
+    {
+      "dayNumber": 35,
+      "title": "Day 35",
+      "readings": [
+        "Exodus 13-14",
+        "Leviticus 10",
+        "Psalm 53"
+      ]
+    },
+    {
+      "dayNumber": 36,
+      "title": "Day 36",
+      "readings": [
+        "Exodus 15-16",
+        "Leviticus 11",
+        "Psalm 71"
+      ]
+    },
+    {
+      "dayNumber": 37,
+      "title": "Day 37",
+      "readings": [
+        "Exodus 17-18",
+        "Leviticus 12",
+        "Psalm 73"
+      ]
+    },
+    {
+      "dayNumber": 38,
+      "title": "Day 38",
+      "readings": [
+        "Exodus 19-20",
+        "Leviticus 13",
+        "Psalm 74"
+      ]
+    },
+    {
+      "dayNumber": 39,
+      "title": "Day 39",
+      "readings": [
+        "Exodus 21",
+        "Leviticus 14",
+        "Psalm 75"
+      ]
+    },
+    {
+      "dayNumber": 40,
+      "title": "Day 40",
+      "readings": [
+        "Exodus 22",
+        "Leviticus 15",
+        "Psalm 76"
+      ]
+    },
+    {
+      "dayNumber": 41,
+      "title": "Day 41",
+      "readings": [
+        "Exodus 23",
+        "Leviticus 16",
+        "Psalm 77"
+      ]
+    },
+    {
+      "dayNumber": 42,
+      "title": "Day 42",
+      "readings": [
+        "Exodus 24",
+        "Leviticus 17-18",
+        "Psalm 78"
+      ]
+    },
+    {
+      "dayNumber": 43,
+      "title": "Day 43",
+      "readings": [
+        "Exodus 25-26",
+        "Leviticus 19",
+        "Psalm 119:1-56"
+      ]
+    },
+    {
+      "dayNumber": 44,
+      "title": "Day 44",
+      "readings": [
+        "Exodus 27-28",
+        "Leviticus 20",
+        "Psalm 119:57-120"
+      ]
+    },
+    {
+      "dayNumber": 45,
+      "title": "Day 45",
+      "readings": [
+        "Exodus 29",
+        "Leviticus 21",
+        "Psalm 119:121-176"
+      ]
+    },
+    {
+      "dayNumber": 46,
+      "title": "Day 46",
+      "readings": [
+        "Exodus 30-31",
+        "Leviticus 22",
+        "Psalm 115"
+      ]
+    },
+    {
+      "dayNumber": 47,
+      "title": "Day 47",
+      "readings": [
+        "Exodus 32",
+        "Leviticus 23",
+        "Psalm 79"
+      ]
+    },
+    {
+      "dayNumber": 48,
+      "title": "Day 48",
+      "readings": [
+        "Exodus 33-34",
+        "Leviticus 24",
+        "Psalm 80"
+      ]
+    },
+    {
+      "dayNumber": 49,
+      "title": "Day 49",
+      "readings": [
+        "Exodus 35-36",
+        "Leviticus 25",
+        "Psalm 81"
+      ]
+    },
+    {
+      "dayNumber": 50,
+      "title": "Day 50",
+      "readings": [
+        "Exodus 37-38",
+        "Leviticus 26",
+        "Psalm 82"
+      ]
+    },
+    {
+      "dayNumber": 51,
+      "title": "Day 51",
+      "readings": [
+        "Exodus 39-40",
+        "Leviticus 27",
+        "Psalm 83"
+      ]
+    },
+    {
+      "dayNumber": 52,
+      "title": "Day 52",
+      "readings": [
+        "Numbers 1",
+        "Deuteronomy 1",
+        "Psalm 84"
+      ]
+    },
+    {
+      "dayNumber": 53,
+      "title": "Day 53",
+      "readings": [
+        "Numbers 2",
+        "Deuteronomy 2",
+        "Psalm 85"
+      ]
+    },
+    {
+      "dayNumber": 54,
+      "title": "Day 54",
+      "readings": [
+        "Numbers 3",
+        "Deuteronomy 3",
+        "Psalm 87"
+      ]
+    },
+    {
+      "dayNumber": 55,
+      "title": "Day 55",
+      "readings": [
+        "Numbers 4",
+        "Deuteronomy 4",
+        "Psalm 88"
+      ]
+    },
+    {
+      "dayNumber": 56,
+      "title": "Day 56",
+      "readings": [
+        "Numbers 5",
+        "Deuteronomy 5",
+        "Psalm 90"
+      ]
+    },
+    {
+      "dayNumber": 57,
+      "title": "Day 57",
+      "readings": [
+        "Numbers 6",
+        "Deuteronomy 6",
+        "Psalm 91"
+      ]
+    },
+    {
+      "dayNumber": 58,
+      "title": "Day 58",
+      "readings": [
+        "Numbers 7",
+        "Deuteronomy 7",
+        "Psalm 92"
+      ]
+    },
+    {
+      "dayNumber": 59,
+      "title": "Day 59",
+      "readings": [
+        "Numbers 8-9",
+        "Deuteronomy 8",
+        "Psalm 93"
+      ]
+    },
+    {
+      "dayNumber": 60,
+      "title": "Day 60",
+      "readings": [
+        "Numbers 10",
+        "Deuteronomy 9",
+        "Psalm 10"
+      ]
+    },
+    {
+      "dayNumber": 61,
+      "title": "Day 61",
+      "readings": [
+        "Numbers 11",
+        "Deuteronomy 10",
+        "Psalm 33"
+      ]
+    },
+    {
+      "dayNumber": 62,
+      "title": "Day 62",
+      "readings": [
+        "Numbers 12-13",
+        "Deuteronomy 11",
+        "Psalm 94"
+      ]
+    },
+    {
+      "dayNumber": 63,
+      "title": "Day 63",
+      "readings": [
+        "Numbers 14",
+        "Deuteronomy 12",
+        "Psalm 95"
+      ]
+    },
+    {
+      "dayNumber": 64,
+      "title": "Day 64",
+      "readings": [
+        "Numbers 15",
+        "Deuteronomy 13-14",
+        "Psalm 96"
+      ]
+    },
+    {
+      "dayNumber": 65,
+      "title": "Day 65",
+      "readings": [
+        "Numbers 16",
+        "Deuteronomy 15-16",
+        "Psalm 97"
+      ]
+    },
+    {
+      "dayNumber": 66,
+      "title": "Day 66",
+      "readings": [
+        "Numbers 17",
+        "Deuteronomy 17-18",
+        "Psalm 98"
+      ]
+    },
+    {
+      "dayNumber": 67,
+      "title": "Day 67",
+      "readings": [
+        "Numbers 18",
+        "Deuteronomy 19-20",
+        "Psalm 99"
+      ]
+    },
+    {
+      "dayNumber": 68,
+      "title": "Day 68",
+      "readings": [
+        "Numbers 19-20",
+        "Deuteronomy 21",
+        "Psalm 100"
+      ]
+    },
+    {
+      "dayNumber": 69,
+      "title": "Day 69",
+      "readings": [
+        "Numbers 21",
+        "Deuteronomy 22",
+        "Psalm 102"
+      ]
+    },
+    {
+      "dayNumber": 70,
+      "title": "Day 70",
+      "readings": [
+        "Numbers 22",
+        "Deuteronomy 23",
+        "Psalm 105"
+      ]
+    },
+    {
+      "dayNumber": 71,
+      "title": "Day 71",
+      "readings": [
+        "Numbers 23",
+        "Deuteronomy 24-25",
+        "Psalm 106"
+      ]
+    },
+    {
+      "dayNumber": 72,
+      "title": "Day 72",
+      "readings": [
+        "Numbers 24-25",
+        "Deuteronomy 26",
+        "Psalm 107"
+      ]
+    },
+    {
+      "dayNumber": 73,
+      "title": "Day 73",
+      "readings": [
+        "Numbers 26",
+        "Deuteronomy 27",
+        "Psalm 111"
+      ]
+    },
+    {
+      "dayNumber": 74,
+      "title": "Day 74",
+      "readings": [
+        "Numbers 27-28",
+        "Deuteronomy 28",
+        "Psalm 112"
+      ]
+    },
+    {
+      "dayNumber": 75,
+      "title": "Day 75",
+      "readings": [
+        "Numbers 29-30",
+        "Deuteronomy 29",
+        "Psalm 113"
+      ]
+    },
+    {
+      "dayNumber": 76,
+      "title": "Day 76",
+      "readings": [
+        "Numbers 31",
+        "Deuteronomy 30",
+        "Psalm 116"
+      ]
+    },
+    {
+      "dayNumber": 77,
+      "title": "Day 77",
+      "readings": [
+        "Numbers 32",
+        "Deuteronomy 31",
+        "Psalm 117"
+      ]
+    },
+    {
+      "dayNumber": 78,
+      "title": "Day 78",
+      "readings": [
+        "Numbers 33",
+        "Deuteronomy 32",
+        "Psalm 118"
+      ]
+    },
+    {
+      "dayNumber": 79,
+      "title": "Day 79",
+      "readings": [
+        "Numbers 34",
+        "Deuteronomy 33",
+        "Psalm 120"
+      ]
+    },
+    {
+      "dayNumber": 80,
+      "title": "Day 80",
+      "readings": [
+        "Numbers 35-36",
+        "Deuteronomy 34",
+        "Psalm 121"
+      ]
+    },
+    {
+      "dayNumber": 81,
+      "title": "Day 81",
+      "readings": [
+        "Joshua 1-4",
+        "Psalm 123"
+      ]
+    },
+    {
+      "dayNumber": 82,
+      "title": "Day 82",
+      "readings": [
+        "Joshua 5-7",
+        "Psalm 125"
+      ]
+    },
+    {
+      "dayNumber": 83,
+      "title": "Day 83",
+      "readings": [
+        "Joshua 8-9",
+        "Psalm 126"
+      ]
+    },
+    {
+      "dayNumber": 84,
+      "title": "Day 84",
+      "readings": [
+        "Joshua 10-11",
+        "Psalm 128"
+      ]
+    },
+    {
+      "dayNumber": 85,
+      "title": "Day 85",
+      "readings": [
+        "Joshua 12-14",
+        "Psalm 129"
+      ]
+    },
+    {
+      "dayNumber": 86,
+      "title": "Day 86",
+      "readings": [
+        "Joshua 15-18",
+        "Psalm 130"
+      ]
+    },
+    {
+      "dayNumber": 87,
+      "title": "Day 87",
+      "readings": [
+        "Joshua 19-21",
+        "Psalm 131"
+      ]
+    },
+    {
+      "dayNumber": 88,
+      "title": "Day 88",
+      "readings": [
+        "Joshua 22-24",
+        "Psalm 132"
+      ]
+    },
+    {
+      "dayNumber": 89,
+      "title": "Day 89",
+      "readings": [
+        "Judges 1-3",
+        "Ruth 1",
+        "Psalm 133"
+      ]
+    },
+    {
+      "dayNumber": 90,
+      "title": "Day 90",
+      "readings": [
+        "Judges 4-5",
+        "Ruth 2",
+        "Psalm 134"
+      ]
+    },
+    {
+      "dayNumber": 91,
+      "title": "Day 91",
+      "readings": [
+        "Judges 6-8",
+        "Ruth 3",
+        "Psalm 135"
+      ]
+    },
+    {
+      "dayNumber": 92,
+      "title": "Day 92",
+      "readings": [
+        "Judges 9-11",
+        "Ruth 4",
+        "Psalm 137"
+      ]
+    },
+    {
+      "dayNumber": 93,
+      "title": "Day 93",
+      "readings": [
+        "Judges 12-15",
+        "Psalm 146"
+      ]
+    },
+    {
+      "dayNumber": 94,
+      "title": "Day 94",
+      "readings": [
+        "Judges 16-18",
+        "Psalm 147"
+      ]
+    },
+    {
+      "dayNumber": 95,
+      "title": "Day 95",
+      "readings": [
+        "Judges 19-21",
+        "Psalm 148"
+      ]
+    },
+    {
+      "dayNumber": 96,
+      "title": "Day 96",
+      "readings": [
+        "1 Samuel 1-2",
+        "Psalm 149"
+      ]
+    },
+    {
+      "dayNumber": 97,
+      "title": "Day 97",
+      "readings": [
+        "1 Samuel 3-5",
+        "Psalm 150"
+      ]
+    },
+    {
+      "dayNumber": 98,
+      "title": "Day 98",
+      "readings": [
+        "1 Samuel 6-8",
+        "Psalm 86"
+      ]
+    },
+    {
+      "dayNumber": 99,
+      "title": "Day 99",
+      "readings": [
+        "John 1-3",
+        "Proverbs 5:1-6"
+      ]
+    },
+    {
+      "dayNumber": 100,
+      "title": "Day 100",
+      "readings": [
+        "John 4-6",
+        "Proverbs 5:7-14"
+      ]
+    },
+    {
+      "dayNumber": 101,
+      "title": "Day 101",
+      "readings": [
+        "John 7-9",
+        "Proverbs 5:15-23"
+      ]
+    },
+    {
+      "dayNumber": 102,
+      "title": "Day 102",
+      "readings": [
+        "John 10-12",
+        "Proverbs 6:1-5"
+      ]
+    },
+    {
+      "dayNumber": 103,
+      "title": "Day 103",
+      "readings": [
+        "John 13-15",
+        "Proverbs 6:6-11"
+      ]
+    },
+    {
+      "dayNumber": 104,
+      "title": "Day 104",
+      "readings": [
+        "John 16-18",
+        "Proverbs 6:12-15"
+      ]
+    },
+    {
+      "dayNumber": 105,
+      "title": "Day 105",
+      "readings": [
+        "John 19-21",
+        "Proverbs 6:16-22"
+      ]
+    },
+    {
+      "dayNumber": 106,
+      "title": "Day 106",
+      "readings": [
+        "1 Samuel 9-10",
+        "Proverbs 6:23-35"
+      ]
+    },
+    {
+      "dayNumber": 107,
+      "title": "Day 107",
+      "readings": [
+        "1 Samuel 11-12",
+        "Psalm 55"
+      ]
+    },
+    {
+      "dayNumber": 108,
+      "title": "Day 108",
+      "readings": [
+        "1 Samuel 13-14",
+        "Psalm 58"
+      ]
+    },
+    {
+      "dayNumber": 109,
+      "title": "Day 109",
+      "readings": [
+        "1 Samuel 15-16",
+        "Psalm 61"
+      ]
+    },
+    {
+      "dayNumber": 110,
+      "title": "Day 110",
+      "readings": [
+        "1 Samuel 17",
+        "Psalm 12"
+      ]
+    },
+    {
+      "dayNumber": 111,
+      "title": "Day 111",
+      "readings": [
+        "1 Samuel 18-19",
+        "Psalm 59"
+      ]
+    },
+    {
+      "dayNumber": 112,
+      "title": "Day 112",
+      "readings": [
+        "1 Samuel 20",
+        "Psalm 142"
+      ]
+    },
+    {
+      "dayNumber": 113,
+      "title": "Day 113",
+      "readings": [
+        "1 Samuel 21-22",
+        "Psalm 52"
+      ]
+    },
+    {
+      "dayNumber": 114,
+      "title": "Day 114",
+      "readings": [
+        "1 Samuel 23",
+        "Psalm 54"
+      ]
+    },
+    {
+      "dayNumber": 115,
+      "title": "Day 115",
+      "readings": [
+        "1 Samuel 24",
+        "Psalm 57"
+      ]
+    },
+    {
+      "dayNumber": 116,
+      "title": "Day 116",
+      "readings": [
+        "1 Samuel 25",
+        "Psalm 63"
+      ]
+    },
+    {
+      "dayNumber": 117,
+      "title": "Day 117",
+      "readings": [
+        "1 Samuel 26",
+        "Psalm 56"
+      ]
+    },
+    {
+      "dayNumber": 118,
+      "title": "Day 118",
+      "readings": [
+        "1 Samuel 27-28",
+        "Psalm 34"
+      ]
+    },
+    {
+      "dayNumber": 119,
+      "title": "Day 119",
+      "readings": [
+        "1 Samuel 29-31",
+        "Psalm 18"
+      ]
+    },
+    {
+      "dayNumber": 120,
+      "title": "Day 120",
+      "readings": [
+        "2 Samuel 1",
+        "1 Chronicles 1",
+        "Psalm 13"
+      ]
+    },
+    {
+      "dayNumber": 121,
+      "title": "Day 121",
+      "readings": [
+        "2 Samuel 2",
+        "1 Chronicles 2",
+        "Psalm 24"
+      ]
+    },
+    {
+      "dayNumber": 122,
+      "title": "Day 122",
+      "readings": [
+        "2 Samuel 3",
+        "1 Chronicles 3-4",
+        "Psalm 25"
+      ]
+    },
+    {
+      "dayNumber": 123,
+      "title": "Day 123",
+      "readings": [
+        "2 Samuel 4",
+        "1 Chronicles 5-6",
+        "Psalm 26"
+      ]
+    },
+    {
+      "dayNumber": 124,
+      "title": "Day 124",
+      "readings": [
+        "2 Samuel 5",
+        "1 Chronicles 7-8",
+        "Psalm 27"
+      ]
+    },
+    {
+      "dayNumber": 125,
+      "title": "Day 125",
+      "readings": [
+        "2 Samuel 6-7",
+        "1 Chronicles 9",
+        "Psalm 89"
+      ]
+    },
+    {
+      "dayNumber": 126,
+      "title": "Day 126",
+      "readings": [
+        "2 Samuel 8",
+        "1 Chronicles 10-11",
+        "Psalm 60"
+      ]
+    },
+    {
+      "dayNumber": 127,
+      "title": "Day 127",
+      "readings": [
+        "2 Samuel 9",
+        "1 Chronicles 12",
+        "Psalm 28"
+      ]
+    },
+    {
+      "dayNumber": 128,
+      "title": "Day 128",
+      "readings": [
+        "2 Samuel 10",
+        "1 Chronicles 13",
+        "Psalm 31"
+      ]
+    },
+    {
+      "dayNumber": 129,
+      "title": "Day 129",
+      "readings": [
+        "2 Samuel 11",
+        "1 Chronicles 14-15",
+        "Psalm 32"
+      ]
+    },
+    {
+      "dayNumber": 130,
+      "title": "Day 130",
+      "readings": [
+        "2 Samuel 12",
+        "1 Chronicles 16",
+        "Psalm 51"
+      ]
+    },
+    {
+      "dayNumber": 131,
+      "title": "Day 131",
+      "readings": [
+        "2 Samuel 13",
+        "1 Chronicles 17",
+        "Psalm 35"
+      ]
+    },
+    {
+      "dayNumber": 132,
+      "title": "Day 132",
+      "readings": [
+        "2 Samuel 14",
+        "1 Chronicles 18",
+        "Psalm 14"
+      ]
+    },
+    {
+      "dayNumber": 133,
+      "title": "Day 133",
+      "readings": [
+        "2 Samuel 15",
+        "1 Chronicles 19-20",
+        "Psalm 3"
+      ]
+    },
+    {
+      "dayNumber": 134,
+      "title": "Day 134",
+      "readings": [
+        "2 Samuel 16",
+        "1 Chronicles 21",
+        "Psalm 15"
+      ]
+    },
+    {
+      "dayNumber": 135,
+      "title": "Day 135",
+      "readings": [
+        "2 Samuel 17",
+        "1 Chronicles 22",
+        "Psalm 36"
+      ]
+    },
+    {
+      "dayNumber": 136,
+      "title": "Day 136",
+      "readings": [
+        "2 Samuel 18",
+        "1 Chronicles 23",
+        "Psalm 37"
+      ]
+    },
+    {
+      "dayNumber": 137,
+      "title": "Day 137",
+      "readings": [
+        "2 Samuel 19",
+        "1 Chronicles 24",
+        "Psalm 38"
+      ]
+    },
+    {
+      "dayNumber": 138,
+      "title": "Day 138",
+      "readings": [
+        "2 Samuel 20",
+        "1 Chronicles 25",
+        "Psalm 39"
+      ]
+    },
+    {
+      "dayNumber": 139,
+      "title": "Day 139",
+      "readings": [
+        "2 Samuel 21",
+        "1 Chronicles 26",
+        "Psalm 40"
+      ]
+    },
+    {
+      "dayNumber": 140,
+      "title": "Day 140",
+      "readings": [
+        "2 Samuel 22",
+        "1 Chronicles 27",
+        "Psalm 41"
+      ]
+    },
+    {
+      "dayNumber": 141,
+      "title": "Day 141",
+      "readings": [
+        "2 Samuel 23",
+        "1 Chronicles 28",
+        "Psalm 42"
+      ]
+    },
+    {
+      "dayNumber": 142,
+      "title": "Day 142",
+      "readings": [
+        "2 Samuel 24",
+        "1 Chronicles 29",
+        "Psalm 30"
+      ]
+    },
+    {
+      "dayNumber": 143,
+      "title": "Day 143",
+      "readings": [
+        "1 Kings 1",
+        "2 Chronicles 1",
+        "Psalm 43"
+      ]
+    },
+    {
+      "dayNumber": 144,
+      "title": "Day 144",
+      "readings": [
+        "1 Kings 2",
+        "2 Chronicles 2-3",
+        "Psalm 62"
+      ]
+    },
+    {
+      "dayNumber": 145,
+      "title": "Day 145",
+      "readings": [
+        "1 Kings 3",
+        "2 Chronicles 4-5",
+        "Psalm 64"
+      ]
+    },
+    {
+      "dayNumber": 146,
+      "title": "Day 146",
+      "readings": [
+        "1 Kings 4",
+        "2 Chronicles 6",
+        "Psalm 65"
+      ]
+    },
+    {
+      "dayNumber": 147,
+      "title": "Day 147",
+      "readings": [
+        "1 Kings 5",
+        "2 Chronicles 7-8",
+        "Psalm 66"
+      ]
+    },
+    {
+      "dayNumber": 148,
+      "title": "Day 148",
+      "readings": [
+        "1 Kings 6",
+        "2 Chronicles 9",
+        "Psalm 4"
+      ]
+    },
+    {
+      "dayNumber": 149,
+      "title": "Day 149",
+      "readings": [
+        "1 Kings 7",
+        "Ecclesiastes 1-2",
+        "Psalm 5"
+      ]
+    },
+    {
+      "dayNumber": 150,
+      "title": "Day 150",
+      "readings": [
+        "1 Kings 8",
+        "Ecclesiastes 3-5",
+        "Psalm 6"
+      ]
+    },
+    {
+      "dayNumber": 151,
+      "title": "Day 151",
+      "readings": [
+        "1 Kings 9",
+        "Ecclesiastes 6-7",
+        "Psalm 7"
+      ]
+    },
+    {
+      "dayNumber": 152,
+      "title": "Day 152",
+      "readings": [
+        "1 Kings 10",
+        "Ecclesiastes 8-9",
+        "Psalm 8"
+      ]
+    },
+    {
+      "dayNumber": 153,
+      "title": "Day 153",
+      "readings": [
+        "1 Kings 11",
+        "Ecclesiastes 10-12",
+        "Psalm 9"
+      ]
+    },
+    {
+      "dayNumber": 154,
+      "title": "Day 154",
+      "readings": [
+        "Mark 1-2",
+        "Psalm 11"
+      ]
+    },
+    {
+      "dayNumber": 155,
+      "title": "Day 155",
+      "readings": [
+        "Mark 3-4",
+        "Psalm 20"
+      ]
+    },
+    {
+      "dayNumber": 156,
+      "title": "Day 156",
+      "readings": [
+        "Mark 5-6",
+        "Psalm 21"
+      ]
+    },
+    {
+      "dayNumber": 157,
+      "title": "Day 157",
+      "readings": [
+        "Mark 7-8",
+        "Psalm 23"
+      ]
+    },
+    {
+      "dayNumber": 158,
+      "title": "Day 158",
+      "readings": [
+        "Mark 9-10",
+        "Psalm 29"
+      ]
+    },
+    {
+      "dayNumber": 159,
+      "title": "Day 159",
+      "readings": [
+        "Mark 11-12",
+        "Psalm 67"
+      ]
+    },
+    {
+      "dayNumber": 160,
+      "title": "Day 160",
+      "readings": [
+        "Mark 13-14",
+        "Psalm 68"
+      ]
+    },
+    {
+      "dayNumber": 161,
+      "title": "Day 161",
+      "readings": [
+        "Mark 15-16",
+        "Psalm 22"
+      ]
+    },
+    {
+      "dayNumber": 162,
+      "title": "Day 162",
+      "readings": [
+        "1 Kings 12",
+        "2 Chronicles 10-11",
+        "Song of Solomon 1"
+      ]
+    },
+    {
+      "dayNumber": 163,
+      "title": "Day 163",
+      "readings": [
+        "1 Kings 13",
+        "2 Chronicles 12-13",
+        "Song of Solomon 2"
+      ]
+    },
+    {
+      "dayNumber": 164,
+      "title": "Day 164",
+      "readings": [
+        "1 Kings 14",
+        "2 Chronicles 14-15",
+        "Song of Solomon 3"
+      ]
+    },
+    {
+      "dayNumber": 165,
+      "title": "Day 165",
+      "readings": [
+        "1 Kings 15-16",
+        "2 Chronicles 16-17",
+        "Song of Solomon 4"
+      ]
+    },
+    {
+      "dayNumber": 166,
+      "title": "Day 166",
+      "readings": [
+        "1 Kings 17-18",
+        "2 Chronicles 18-19",
+        "Song of Solomon 5"
+      ]
+    },
+    {
+      "dayNumber": 167,
+      "title": "Day 167",
+      "readings": [
+        "1 Kings 19-20",
+        "2 Chronicles 20",
+        "Song of Solomon 6"
+      ]
+    },
+    {
+      "dayNumber": 168,
+      "title": "Day 168",
+      "readings": [
+        "1 Kings 21",
+        "2 Chronicles 21-22",
+        "Song of Solomon 7"
+      ]
+    },
+    {
+      "dayNumber": 169,
+      "title": "Day 169",
+      "readings": [
+        "1 Kings 22",
+        "2 Chronicles 23",
+        "Song of Solomon 8"
+      ]
+    },
+    {
+      "dayNumber": 170,
+      "title": "Day 170",
+      "readings": [
+        "2 Kings 1",
+        "2 Chronicles 24",
+        "Psalm 69"
+      ]
+    },
+    {
+      "dayNumber": 171,
+      "title": "Day 171",
+      "readings": [
+        "2 Kings 2",
+        "2 Chronicles 25",
+        "Psalm 70"
+      ]
+    },
+    {
+      "dayNumber": 172,
+      "title": "Day 172",
+      "readings": [
+        "2 Kings 3",
+        "2 Chronicles 26-27",
+        "Psalm 72"
+      ]
+    },
+    {
+      "dayNumber": 173,
+      "title": "Day 173",
+      "readings": [
+        "2 Kings 4",
+        "2 Chronicles 28",
+        "Psalm 127"
+      ]
+    },
+    {
+      "dayNumber": 174,
+      "title": "Day 174",
+      "readings": [
+        "2 Kings 5",
+        "Hosea 1-3",
+        "Psalm 101"
+      ]
+    },
+    {
+      "dayNumber": 175,
+      "title": "Day 175",
+      "readings": [
+        "2 Kings 6-7",
+        "Hosea 4-7",
+        "Psalm 103"
+      ]
+    },
+    {
+      "dayNumber": 176,
+      "title": "Day 176",
+      "readings": [
+        "2 Kings 8",
+        "Hosea 8-10",
+        "Psalm 108"
+      ]
+    },
+    {
+      "dayNumber": 177,
+      "title": "Day 177",
+      "readings": [
+        "2 Kings 9",
+        "Hosea 11-14",
+        "Psalm 109"
+      ]
+    },
+    {
+      "dayNumber": 178,
+      "title": "Day 178",
+      "readings": [
+        "2 Kings 10",
+        "Amos 1-3",
+        "Psalm 110"
+      ]
+    },
+    {
+      "dayNumber": 179,
+      "title": "Day 179",
+      "readings": [
+        "2 Kings 11-12",
+        "Amos 4-6",
+        "Psalm 122"
+      ]
+    },
+    {
+      "dayNumber": 180,
+      "title": "Day 180",
+      "readings": [
+        "2 Kings 13-14",
+        "Amos 7-9",
+        "Psalm 124"
+      ]
+    },
+    {
+      "dayNumber": 181,
+      "title": "Day 181",
+      "readings": [
+        "2 Kings 15",
+        "Jonah 1-4",
+        "Psalm 138"
+      ]
+    },
+    {
+      "dayNumber": 182,
+      "title": "Day 182",
+      "readings": [
+        "2 Kings 16",
+        "Micah 1-4",
+        "Psalm 139"
+      ]
+    },
+    {
+      "dayNumber": 183,
+      "title": "Day 183",
+      "readings": [
+        "2 Kings 17",
+        "Micah 5-7",
+        "Psalm 140"
+      ]
+    },
+    {
+      "dayNumber": 184,
+      "title": "Day 184",
+      "readings": [
+        "2 Kings 18",
+        "2 Chronicles 29",
+        "Psalm 141"
+      ]
+    },
+    {
+      "dayNumber": 185,
+      "title": "Day 185",
+      "readings": [
+        "2 Kings 19",
+        "2 Chronicles 30",
+        "Psalm 143"
+      ]
+    },
+    {
+      "dayNumber": 186,
+      "title": "Day 186",
+      "readings": [
+        "2 Kings 20",
+        "2 Chronicles 31",
+        "Psalm 144"
+      ]
+    },
+    {
+      "dayNumber": 187,
+      "title": "Day 187",
+      "readings": [
+        "2 Kings 21",
+        "2 Chronicles 32",
+        "Psalm 145"
+      ]
+    },
+    {
+      "dayNumber": 188,
+      "title": "Day 188",
+      "readings": [
+        "2 Kings 22",
+        "2 Chronicles 33",
+        "Proverbs 7"
+      ]
+    },
+    {
+      "dayNumber": 189,
+      "title": "Day 189",
+      "readings": [
+        "2 Kings 23",
+        "2 Chronicles 34",
+        "Proverbs 8:1-21"
+      ]
+    },
+    {
+      "dayNumber": 190,
+      "title": "Day 190",
+      "readings": [
+        "2 Kings 24",
+        "2 Chronicles 35",
+        "Proverbs 8:22-36"
+      ]
+    },
+    {
+      "dayNumber": 191,
+      "title": "Day 191",
+      "readings": [
+        "2 Kings 25",
+        "2 Chronicles 36",
+        "Proverbs 9:1-6"
+      ]
+    },
+    {
+      "dayNumber": 192,
+      "title": "Day 192",
+      "readings": [
+        "Isaiah 1-2",
+        "Tobit 1-2",
+        "Proverbs 9:7-12"
+      ]
+    },
+    {
+      "dayNumber": 193,
+      "title": "Day 193",
+      "readings": [
+        "Isaiah 3-4",
+        "Tobit 3-4",
+        "Proverbs 9:13-18"
+      ]
+    },
+    {
+      "dayNumber": 194,
+      "title": "Day 194",
+      "readings": [
+        "Isaiah 5-6",
+        "Tobit 5-6",
+        "Proverbs 10:1-4"
+      ]
+    },
+    {
+      "dayNumber": 195,
+      "title": "Day 195",
+      "readings": [
+        "Isaiah 7-8",
+        "Tobit 7-9",
+        "Proverbs 10:5-8"
+      ]
+    },
+    {
+      "dayNumber": 196,
+      "title": "Day 196",
+      "readings": [
+        "Isaiah 9-10",
+        "Tobit 10-12",
+        "Proverbs 10:9-12"
+      ]
+    },
+    {
+      "dayNumber": 197,
+      "title": "Day 197",
+      "readings": [
+        "Isaiah 11-13",
+        "Tobit 13-14",
+        "Proverbs 10:13-16"
+      ]
+    },
+    {
+      "dayNumber": 198,
+      "title": "Day 198",
+      "readings": [
+        "Isaiah 14-15",
+        "Joel 1-2",
+        "Proverbs 10:17-20"
+      ]
+    },
+    {
+      "dayNumber": 199,
+      "title": "Day 199",
+      "readings": [
+        "Isaiah 16-17",
+        "Joel 3",
+        "Proverbs 10:21-24"
+      ]
+    },
+    {
+      "dayNumber": 200,
+      "title": "Day 200",
+      "readings": [
+        "Isaiah 18-20",
+        "Nahum 1-2",
+        "Proverbs 10:25-28"
+      ]
+    },
+    {
+      "dayNumber": 201,
+      "title": "Day 201",
+      "readings": [
+        "Isaiah 21-22",
+        "Nahum 3",
+        "Proverbs 10:29-32"
+      ]
+    },
+    {
+      "dayNumber": 202,
+      "title": "Day 202",
+      "readings": [
+        "Isaiah 23-24",
+        "Habakkuk 1-2",
+        "Proverbs 11:1-4"
+      ]
+    },
+    {
+      "dayNumber": 203,
+      "title": "Day 203",
+      "readings": [
+        "Isaiah 25-27",
+        "Habakkuk 3",
+        "Proverbs 11:5-8"
+      ]
+    },
+    {
+      "dayNumber": 204,
+      "title": "Day 204",
+      "readings": [
+        "Isaiah 28-29",
+        "Zephaniah 1-2",
+        "Proverbs 11:9-12"
+      ]
+    },
+    {
+      "dayNumber": 205,
+      "title": "Day 205",
+      "readings": [
+        "Isaiah 30-31",
+        "Zephaniah 3",
+        "Proverbs 11:13-16"
+      ]
+    },
+    {
+      "dayNumber": 206,
+      "title": "Day 206",
+      "readings": [
+        "Isaiah 32-33",
+        "Baruch 1-2",
+        "Proverbs 11:17-20"
+      ]
+    },
+    {
+      "dayNumber": 207,
+      "title": "Day 207",
+      "readings": [
+        "Isaiah 34-36",
+        "Baruch 3-4",
+        "Proverbs 11:21-24"
+      ]
+    },
+    {
+      "dayNumber": 208,
+      "title": "Day 208",
+      "readings": [
+        "Isaiah 37-38",
+        "Baruch 5-6",
+        "Proverbs 11:25-28"
+      ]
+    },
+    {
+      "dayNumber": 209,
+      "title": "Day 209",
+      "readings": [
+        "Isaiah 39-40",
+        "Ezekiel 1",
+        "Proverbs 11:29-31"
+      ]
+    },
+    {
+      "dayNumber": 210,
+      "title": "Day 210",
+      "readings": [
+        "Isaiah 41-42",
+        "Ezekiel 2-3",
+        "Proverbs 12:1-4"
+      ]
+    },
+    {
+      "dayNumber": 211,
+      "title": "Day 211",
+      "readings": [
+        "Isaiah 43-44",
+        "Ezekiel 4-5",
+        "Proverbs 12:5-8"
+      ]
+    },
+    {
+      "dayNumber": 212,
+      "title": "Day 212",
+      "readings": [
+        "Isaiah 45-46",
+        "Ezekiel 6-7",
+        "Proverbs 12:9-12"
+      ]
+    },
+    {
+      "dayNumber": 213,
+      "title": "Day 213",
+      "readings": [
+        "Isaiah 47-48",
+        "Ezekiel 8-9",
+        "Proverbs 12:13-16"
+      ]
+    },
+    {
+      "dayNumber": 214,
+      "title": "Day 214",
+      "readings": [
+        "Isaiah 49-50",
+        "Ezekiel 10-11",
+        "Proverbs 12:17-20"
+      ]
+    },
+    {
+      "dayNumber": 215,
+      "title": "Day 215",
+      "readings": [
+        "Isaiah 51-52",
+        "Ezekiel 12-13",
+        "Proverbs 12:21-24"
+      ]
+    },
+    {
+      "dayNumber": 216,
+      "title": "Day 216",
+      "readings": [
+        "Isaiah 53-54",
+        "Ezekiel 14-15",
+        "Proverbs 12:25-28"
+      ]
+    },
+    {
+      "dayNumber": 217,
+      "title": "Day 217",
+      "readings": [
+        "Isaiah 55-56",
+        "Ezekiel 16",
+        "Proverbs 13:1-4"
+      ]
+    },
+    {
+      "dayNumber": 218,
+      "title": "Day 218",
+      "readings": [
+        "Isaiah 57-58",
+        "Ezekiel 17-18",
+        "Proverbs 13:5-8"
+      ]
+    },
+    {
+      "dayNumber": 219,
+      "title": "Day 219",
+      "readings": [
+        "Isaiah 59-60",
+        "Ezekiel 19",
+        "Proverbs 13:9-12"
+      ]
+    },
+    {
+      "dayNumber": 220,
+      "title": "Day 220",
+      "readings": [
+        "Isaiah 61-62",
+        "Ezekiel 20",
+        "Proverbs 13:13-16"
+      ]
+    },
+    {
+      "dayNumber": 221,
+      "title": "Day 221",
+      "readings": [
+        "Isaiah 63-64",
+        "Ezekiel 21-22",
+        "Proverbs 13:17-20"
+      ]
+    },
+    {
+      "dayNumber": 222,
+      "title": "Day 222",
+      "readings": [
+        "Isaiah 65",
+        "Ezekiel 23-24",
+        "Proverbs 13:21-25"
+      ]
+    },
+    {
+      "dayNumber": 223,
+      "title": "Day 223",
+      "readings": [
+        "Isaiah 66",
+        "Ezekiel 25-26",
+        "Proverbs 14:1-4"
+      ]
+    },
+    {
+      "dayNumber": 224,
+      "title": "Day 224",
+      "readings": [
+        "Jeremiah 1",
+        "Ezekiel 27",
+        "Proverbs 14:5-8"
+      ]
+    },
+    {
+      "dayNumber": 225,
+      "title": "Day 225",
+      "readings": [
+        "Jeremiah 2",
+        "Ezekiel 28",
+        "Proverbs 14:9-12"
+      ]
+    },
+    {
+      "dayNumber": 226,
+      "title": "Day 226",
+      "readings": [
+        "Jeremiah 3",
+        "Ezekiel 29-30",
+        "Proverbs 14:13-16"
+      ]
+    },
+    {
+      "dayNumber": 227,
+      "title": "Day 227",
+      "readings": [
+        "Jeremiah 4",
+        "Ezekiel 31-32",
+        "Proverbs 14:17-20"
+      ]
+    },
+    {
+      "dayNumber": 228,
+      "title": "Day 228",
+      "readings": [
+        "Jeremiah 5",
+        "Ezekiel 33",
+        "Proverbs 14:21-24"
+      ]
+    },
+    {
+      "dayNumber": 229,
+      "title": "Day 229",
+      "readings": [
+        "Jeremiah 6",
+        "Ezekiel 34-35",
+        "Proverbs 14:25-28"
+      ]
+    },
+    {
+      "dayNumber": 230,
+      "title": "Day 230",
+      "readings": [
+        "Jeremiah 7",
+        "Ezekiel 36",
+        "Proverbs 14:29-32"
+      ]
+    },
+    {
+      "dayNumber": 231,
+      "title": "Day 231",
+      "readings": [
+        "Jeremiah 8",
+        "Ezekiel 37-38",
+        "Proverbs 14:33-35"
+      ]
+    },
+    {
+      "dayNumber": 232,
+      "title": "Day 232",
+      "readings": [
+        "Jeremiah 9",
+        "Ezekiel 39",
+        "Proverbs 15:1-4"
+      ]
+    },
+    {
+      "dayNumber": 233,
+      "title": "Day 233",
+      "readings": [
+        "Jeremiah 10-11",
+        "Ezekiel 40",
+        "Proverbs 15:5-8"
+      ]
+    },
+    {
+      "dayNumber": 234,
+      "title": "Day 234",
+      "readings": [
+        "Jeremiah 12-13",
+        "Ezekiel 41-42",
+        "Proverbs 15:9-12"
+      ]
+    },
+    {
+      "dayNumber": 235,
+      "title": "Day 235",
+      "readings": [
+        "Jeremiah 14-15",
+        "Ezekiel 43-44",
+        "Proverbs 15:13-16"
+      ]
+    },
+    {
+      "dayNumber": 236,
+      "title": "Day 236",
+      "readings": [
+        "Jeremiah 16-17",
+        "Ezekiel 45-46",
+        "Proverbs 15:17-20"
+      ]
+    },
+    {
+      "dayNumber": 237,
+      "title": "Day 237",
+      "readings": [
+        "Jeremiah 18-19",
+        "Ezekiel 47-48",
+        "Proverbs 15:21-24"
+      ]
+    },
+    {
+      "dayNumber": 238,
+      "title": "Day 238",
+      "readings": [
+        "Jeremiah 20-21",
+        "Daniel 1-2",
+        "Proverbs 15:25-28"
+      ]
+    },
+    {
+      "dayNumber": 239,
+      "title": "Day 239",
+      "readings": [
+        "Jeremiah 22",
+        "Daniel 3",
+        "Proverbs 15:29-33"
+      ]
+    },
+    {
+      "dayNumber": 240,
+      "title": "Day 240",
+      "readings": [
+        "Jeremiah 23",
+        "Daniel 4-5",
+        "Proverbs 16:1-4"
+      ]
+    },
+    {
+      "dayNumber": 241,
+      "title": "Day 241",
+      "readings": [
+        "Jeremiah 24-25",
+        "Daniel 6-7",
+        "Proverbs 16:5-8"
+      ]
+    },
+    {
+      "dayNumber": 242,
+      "title": "Day 242",
+      "readings": [
+        "Jeremiah 26-27",
+        "Daniel 8-9",
+        "Proverbs 16:9-12"
+      ]
+    },
+    {
+      "dayNumber": 243,
+      "title": "Day 243",
+      "readings": [
+        "Jeremiah 28-29",
+        "Daniel 10-11",
+        "Proverbs 16:13-16"
+      ]
+    },
+    {
+      "dayNumber": 244,
+      "title": "Day 244",
+      "readings": [
+        "Jeremiah 30",
+        "Daniel 12-13",
+        "Proverbs 16:17-20"
+      ]
+    },
+    {
+      "dayNumber": 245,
+      "title": "Day 245",
+      "readings": [
+        "Jeremiah 31",
+        "Daniel 14",
+        "Proverbs 16:21-24"
+      ]
+    },
+    {
+      "dayNumber": 246,
+      "title": "Day 246",
+      "readings": [
+        "Jeremiah 32",
+        "Judith 1-2",
+        "Proverbs 16:25-28"
+      ]
+    },
+    {
+      "dayNumber": 247,
+      "title": "Day 247",
+      "readings": [
+        "Jeremiah 33-34",
+        "Judith 3-5",
+        "Proverbs 16:29-33"
+      ]
+    },
+    {
+      "dayNumber": 248,
+      "title": "Day 248",
+      "readings": [
+        "Jeremiah 35-36",
+        "Judith 6-7",
+        "Proverbs 17:1-4"
+      ]
+    },
+    {
+      "dayNumber": 249,
+      "title": "Day 249",
+      "readings": [
+        "Jeremiah 37-38",
+        "Judith 8-9",
+        "Proverbs 17:5-8"
+      ]
+    },
+    {
+      "dayNumber": 250,
+      "title": "Day 250",
+      "readings": [
+        "Jeremiah 39-40",
+        "Judith 10-11",
+        "Proverbs 17:9-12"
+      ]
+    },
+    {
+      "dayNumber": 251,
+      "title": "Day 251",
+      "readings": [
+        "Jeremiah 41-42",
+        "Judith 12-14",
+        "Proverbs 17:13-16"
+      ]
+    },
+    {
+      "dayNumber": 252,
+      "title": "Day 252",
+      "readings": [
+        "Jeremiah 43-44",
+        "Judith 15-16",
+        "Proverbs 17:17-20"
+      ]
+    },
+    {
+      "dayNumber": 253,
+      "title": "Day 253",
+      "readings": [
+        "Jeremiah 45-46",
+        "Lamentations 1",
+        "Proverbs 17:21-28"
+      ]
+    },
+    {
+      "dayNumber": 254,
+      "title": "Day 254",
+      "readings": [
+        "Jeremiah 47-48",
+        "Lamentations 2",
+        "Proverbs 18:1-4"
+      ]
+    },
+    {
+      "dayNumber": 255,
+      "title": "Day 255",
+      "readings": [
+        "Jeremiah 49-50",
+        "Lamentations 3",
+        "Proverbs 18:5-8"
+      ]
+    },
+    {
+      "dayNumber": 256,
+      "title": "Day 256",
+      "readings": [
+        "Jeremiah 51",
+        "Lamentations 4-5",
+        "Proverbs 18:9-12"
+      ]
+    },
+    {
+      "dayNumber": 257,
+      "title": "Day 257",
+      "readings": [
+        "Jeremiah 52",
+        "Obadiah 1",
+        "Proverbs 18:13-16"
+      ]
+    },
+    {
+      "dayNumber": 258,
+      "title": "Day 258",
+      "readings": [
+        "Matthew 1-4",
+        "Proverbs 18:17-20"
+      ]
+    },
+    {
+      "dayNumber": 259,
+      "title": "Day 259",
+      "readings": [
+        "Matthew 5-7",
+        "Proverbs 18:21-24"
+      ]
+    },
+    {
+      "dayNumber": 260,
+      "title": "Day 260",
+      "readings": [
+        "Matthew 8-10",
+        "Proverbs 19:1-4"
+      ]
+    },
+    {
+      "dayNumber": 261,
+      "title": "Day 261",
+      "readings": [
+        "Matthew 11-13",
+        "Proverbs 19:5-8"
+      ]
+    },
+    {
+      "dayNumber": 262,
+      "title": "Day 262",
+      "readings": [
+        "Matthew 14-17",
+        "Proverbs 19:9-12"
+      ]
+    },
+    {
+      "dayNumber": 263,
+      "title": "Day 263",
+      "readings": [
+        "Matthew 18-21",
+        "Proverbs 19:13-16"
+      ]
+    },
+    {
+      "dayNumber": 264,
+      "title": "Day 264",
+      "readings": [
+        "Matthew 22-24",
+        "Proverbs 19:17-20"
+      ]
+    },
+    {
+      "dayNumber": 265,
+      "title": "Day 265",
+      "readings": [
+        "Matthew 25-26",
+        "Proverbs 19:21-24"
+      ]
+    },
+    {
+      "dayNumber": 266,
+      "title": "Day 266",
+      "readings": [
+        "Matthew 27-28",
+        "Proverbs 19:25-29"
+      ]
+    },
+    {
+      "dayNumber": 267,
+      "title": "Day 267",
+      "readings": [
+        "Ezra 1-2",
+        "Haggai 1-2",
+        "Proverbs 20:1-3"
+      ]
+    },
+    {
+      "dayNumber": 268,
+      "title": "Day 268",
+      "readings": [
+        "Ezra 3-4",
+        "Zechariah 1-3",
+        "Proverbs 20:4-7"
+      ]
+    },
+    {
+      "dayNumber": 269,
+      "title": "Day 269",
+      "readings": [
+        "Ezra 5-6",
+        "Zechariah 4-6",
+        "Proverbs 20:8-11"
+      ]
+    },
+    {
+      "dayNumber": 270,
+      "title": "Day 270",
+      "readings": [
+        "Ezra 7-8",
+        "Zechariah 7-8",
+        "Proverbs 20:12-15"
+      ]
+    },
+    {
+      "dayNumber": 271,
+      "title": "Day 271",
+      "readings": [
+        "Ezra 9-10",
+        "Zechariah 9-11",
+        "Proverbs 20:16-19"
+      ]
+    },
+    {
+      "dayNumber": 272,
+      "title": "Day 272",
+      "readings": [
+        "Nehemiah 1-2",
+        "Zechariah 12-13",
+        "Proverbs 20:20-22"
+      ]
+    },
+    {
+      "dayNumber": 273,
+      "title": "Day 273",
+      "readings": [
+        "Nehemiah 3",
+        "Zechariah 14",
+        "Proverbs 20:23-26"
+      ]
+    },
+    {
+      "dayNumber": 274,
+      "title": "Day 274",
+      "readings": [
+        "Nehemiah 4-5",
+        "Esther 11-12",
+        "Proverbs 20:27-30"
+      ]
+    },
+    {
+      "dayNumber": 275,
+      "title": "Day 275",
+      "readings": [
+        "Nehemiah 6-7",
+        "Esther 1-2",
+        "Proverbs 21:1-4"
+      ]
+    },
+    {
+      "dayNumber": 276,
+      "title": "Day 276",
+      "readings": [
+        "Nehemiah 8",
+        "Esther 3, 13",
+        "Proverbs 21:5-8"
+      ]
+    },
+    {
+      "dayNumber": 277,
+      "title": "Day 277",
+      "readings": [
+        "Nehemiah 9",
+        "Esther 4, 14",
+        "Proverbs 21:9-12"
+      ]
+    },
+    {
+      "dayNumber": 278,
+      "title": "Day 278",
+      "readings": [
+        "Nehemiah 10",
+        "Esther 15, 6-7",
+        "Proverbs 21:13-16"
+      ]
+    },
+    {
+      "dayNumber": 279,
+      "title": "Day 279",
+      "readings": [
+        "Nehemiah 11",
+        "Esther 8,16",
+        "Proverbs 21:17-20"
+      ]
+    },
+    {
+      "dayNumber": 280,
+      "title": "Day 280",
+      "readings": [
+        "Nehemiah 12",
+        "Esther 9-11",
+        "Proverbs 21:21-24"
+      ]
+    },
+    {
+      "dayNumber": 281,
+      "title": "Day 281",
+      "readings": [
+        "Nehemiah 13",
+        "Malachi 1-4",
+        "Proverbs 21:25-28"
+      ]
+    },
+    {
+      "dayNumber": 282,
+      "title": "Day 282",
+      "readings": [
+        "1 Maccabees 1",
+        "Sirach 1-3",
+        "Proverbs 21:29-31"
+      ]
+    },
+    {
+      "dayNumber": 283,
+      "title": "Day 283",
+      "readings": [
+        "1 Maccabees 2",
+        "Sirach 4-6",
+        "Proverbs 22:1-4"
+      ]
+    },
+    {
+      "dayNumber": 284,
+      "title": "Day 284",
+      "readings": [
+        "1 Maccabees 3",
+        "Sirach 7-9",
+        "Proverbs 22:5-8"
+      ]
+    },
+    {
+      "dayNumber": 285,
+      "title": "Day 285",
+      "readings": [
+        "1 Maccabees 4",
+        "Sirach 10-12",
+        "Proverbs 22:9-12"
+      ]
+    },
+    {
+      "dayNumber": 286,
+      "title": "Day 286",
+      "readings": [
+        "1 Maccabees 5",
+        "Sirach 13-15",
+        "Proverbs 22:13-16"
+      ]
+    },
+    {
+      "dayNumber": 287,
+      "title": "Day 287",
+      "readings": [
+        "1 Maccabees 6",
+        "Sirach 16-18",
+        "Proverbs 22:17-21"
+      ]
+    },
+    {
+      "dayNumber": 288,
+      "title": "Day 288",
+      "readings": [
+        "1 Maccabees 7",
+        "Sirach 19-21",
+        "Proverbs 22:22-25"
+      ]
+    },
+    {
+      "dayNumber": 289,
+      "title": "Day 289",
+      "readings": [
+        "1 Maccabees 8",
+        "Sirach 22-23",
+        "Proverbs 22:26-29"
+      ]
+    },
+    {
+      "dayNumber": 290,
+      "title": "Day 290",
+      "readings": [
+        "1 Maccabees 9",
+        "Sirach 24-25",
+        "Proverbs 23:1-4"
+      ]
+    },
+    {
+      "dayNumber": 291,
+      "title": "Day 291",
+      "readings": [
+        "1 Maccabees 10",
+        "Sirach 26-27",
+        "Proverbs 23:5-8"
+      ]
+    },
+    {
+      "dayNumber": 292,
+      "title": "Day 292",
+      "readings": [
+        "1 Maccabees 11",
+        "Sirach 28-29",
+        "Proverbs 23:9-12"
+      ]
+    },
+    {
+      "dayNumber": 293,
+      "title": "Day 293",
+      "readings": [
+        "1 Maccabees 12",
+        "Sirach 30-31",
+        "Proverbs 23:13-16"
+      ]
+    },
+    {
+      "dayNumber": 294,
+      "title": "Day 294",
+      "readings": [
+        "1 Maccabees 13",
+        "Sirach 32-33",
+        "Proverbs 23:17-21"
+      ]
+    },
+    {
+      "dayNumber": 295,
+      "title": "Day 295",
+      "readings": [
+        "1 Maccabees 14",
+        "Sirach 34-35",
+        "Proverbs 23:22-25"
+      ]
+    },
+    {
+      "dayNumber": 296,
+      "title": "Day 296",
+      "readings": [
+        "1 Maccabees 15",
+        "Sirach 36-37",
+        "Proverbs 23:26-28"
+      ]
+    },
+    {
+      "dayNumber": 297,
+      "title": "Day 297",
+      "readings": [
+        "1 Maccabees 16",
+        "Sirach 38-39",
+        "Proverbs 23:29-35"
+      ]
+    },
+    {
+      "dayNumber": 298,
+      "title": "Day 298",
+      "readings": [
+        "2 Maccabees 1",
+        "Sirach 40-41",
+        "Proverbs 24:1-7"
+      ]
+    },
+    {
+      "dayNumber": 299,
+      "title": "Day 299",
+      "readings": [
+        "2 Maccabees 2",
+        "Sirach 42-44",
+        "Proverbs 24:8-9"
+      ]
+    },
+    {
+      "dayNumber": 300,
+      "title": "Day 300",
+      "readings": [
+        "2 Maccabees 3",
+        "Sirach 45-46",
+        "Proverbs 24:10-12"
+      ]
+    },
+    {
+      "dayNumber": 301,
+      "title": "Day 301",
+      "readings": [
+        "2 Maccabees 4",
+        "Sirach 47-49",
+        "Proverbs 24:13-16"
+      ]
+    },
+    {
+      "dayNumber": 302,
+      "title": "Day 302",
+      "readings": [
+        "2 Maccabees 5",
+        "Sirach 50-51",
+        "Proverbs 24:17-20"
+      ]
+    },
+    {
+      "dayNumber": 303,
+      "title": "Day 303",
+      "readings": [
+        "2 Maccabees 6",
+        "Wisdom 1-2",
+        "Proverbs 24:21-26"
+      ]
+    },
+    {
+      "dayNumber": 304,
+      "title": "Day 304",
+      "readings": [
+        "2 Maccabees 7",
+        "Wisdom 3-4",
+        "Proverbs 24:27-29"
+      ]
+    },
+    {
+      "dayNumber": 305,
+      "title": "Day 305",
+      "readings": [
+        "2 Maccabees 8",
+        "Wisdom 5-6",
+        "Proverbs 24:30-34"
+      ]
+    },
+    {
+      "dayNumber": 306,
+      "title": "Day 306",
+      "readings": [
+        "2 Maccabees 9",
+        "Wisdom 7-8",
+        "Proverbs 25:1-3"
+      ]
+    },
+    {
+      "dayNumber": 307,
+      "title": "Day 307",
+      "readings": [
+        "2 Maccabees 10",
+        "Wisdom 9-10",
+        "Proverbs 25:4-7"
+      ]
+    },
+    {
+      "dayNumber": 308,
+      "title": "Day 308",
+      "readings": [
+        "2 Maccabees 11",
+        "Wisdom 11-12",
+        "Proverbs 25:8-10"
+      ]
+    },
+    {
+      "dayNumber": 309,
+      "title": "Day 309",
+      "readings": [
+        "2 Maccabees 12",
+        "Wisdom 13-14",
+        "Proverbs 25:11-14"
+      ]
+    },
+    {
+      "dayNumber": 310,
+      "title": "Day 310",
+      "readings": [
+        "2 Maccabees 13",
+        "Wisdom 15-16",
+        "Proverbs 25:15-17"
+      ]
+    },
+    {
+      "dayNumber": 311,
+      "title": "Day 311",
+      "readings": [
+        "2 Maccabees 14",
+        "Wisdom 17-18",
+        "Proverbs 25:18-20"
+      ]
+    },
+    {
+      "dayNumber": 312,
+      "title": "Day 312",
+      "readings": [
+        "2 Maccabees 15",
+        "Wisdom 19",
+        "Proverbs 25:21-23"
+      ]
+    },
+    {
+      "dayNumber": 313,
+      "title": "Day 313",
+      "readings": [
+        "Luke 1-2",
+        "Proverbs 25:24-26"
+      ]
+    },
+    {
+      "dayNumber": 314,
+      "title": "Day 314",
+      "readings": [
+        "Luke 3-5",
+        "Proverbs 25:27-28"
+      ]
+    },
+    {
+      "dayNumber": 315,
+      "title": "Day 315",
+      "readings": [
+        "Luke 6-8",
+        "Proverbs 26:1-3"
+      ]
+    },
+    {
+      "dayNumber": 316,
+      "title": "Day 316",
+      "readings": [
+        "Luke 9-10",
+        "Proverbs 26:4-6"
+      ]
+    },
+    {
+      "dayNumber": 317,
+      "title": "Day 317",
+      "readings": [
+        "Luke 11-12",
+        "Proverbs 26:7-9"
+      ]
+    },
+    {
+      "dayNumber": 318,
+      "title": "Day 318",
+      "readings": [
+        "Luke 13-16",
+        "Proverbs 26:10-12"
+      ]
+    },
+    {
+      "dayNumber": 319,
+      "title": "Day 319",
+      "readings": [
+        "Luke 17-19",
+        "Proverbs 26:13-16"
+      ]
+    },
+    {
+      "dayNumber": 320,
+      "title": "Day 320",
+      "readings": [
+        "Luke 20-22:38",
+        "Proverbs 26:17-19"
+      ]
+    },
+    {
+      "dayNumber": 321,
+      "title": "Day 321",
+      "readings": [
+        "Luke 22:39-24",
+        "Proverbs 26:20-23"
+      ]
+    },
+    {
+      "dayNumber": 322,
+      "title": "Day 322",
+      "readings": [
+        "Acts 1",
+        "Romans 1",
+        "Proverbs 26:24-26"
+      ]
+    },
+    {
+      "dayNumber": 323,
+      "title": "Day 323",
+      "readings": [
+        "Acts 2",
+        "Romans 2-3",
+        "Proverbs 26:27-28"
+      ]
+    },
+    {
+      "dayNumber": 324,
+      "title": "Day 324",
+      "readings": [
+        "Acts 3",
+        "Romans 4-5",
+        "Proverbs 27:1-3"
+      ]
+    },
+    {
+      "dayNumber": 325,
+      "title": "Day 325",
+      "readings": [
+        "Acts 4",
+        "Romans 6-7",
+        "Proverbs 27:4-6"
+      ]
+    },
+    {
+      "dayNumber": 326,
+      "title": "Day 326",
+      "readings": [
+        "Acts 5",
+        "Romans 8",
+        "Proverbs 27:7-9"
+      ]
+    },
+    {
+      "dayNumber": 327,
+      "title": "Day 327",
+      "readings": [
+        "Acts 6",
+        "Romans 9-10",
+        "Proverbs 27:10-12"
+      ]
+    },
+    {
+      "dayNumber": 328,
+      "title": "Day 328",
+      "readings": [
+        "Acts 7",
+        "Romans 11-12",
+        "Proverbs 27:13-14"
+      ]
+    },
+    {
+      "dayNumber": 329,
+      "title": "Day 329",
+      "readings": [
+        "Acts 8",
+        "Romans 13-14",
+        "Proverbs 27:15-17"
+      ]
+    },
+    {
+      "dayNumber": 330,
+      "title": "Day 330",
+      "readings": [
+        "Acts 9",
+        "Romans 15-16",
+        "Proverbs 27:18-20"
+      ]
+    },
+    {
+      "dayNumber": 331,
+      "title": "Day 331",
+      "readings": [
+        "Acts 10",
+        "1 Corinthians 1-2",
+        "Proverbs 27:21-22"
+      ]
+    },
+    {
+      "dayNumber": 332,
+      "title": "Day 332",
+      "readings": [
+        "Acts 11",
+        "1 Corinthians 3-4",
+        "Proverbs 27:23-27"
+      ]
+    },
+    {
+      "dayNumber": 333,
+      "title": "Day 333",
+      "readings": [
+        "Acts 12",
+        "1 Corinthians 5-6",
+        "Proverbs 28:1-3"
+      ]
+    },
+    {
+      "dayNumber": 334,
+      "title": "Day 334",
+      "readings": [
+        "Acts 13",
+        "1 Corinthians 7-8",
+        "Proverbs 28:4-6"
+      ]
+    },
+    {
+      "dayNumber": 335,
+      "title": "Day 335",
+      "readings": [
+        "Acts 14",
+        "1 Corinthians 9-10",
+        "Proverbs 28:7-9"
+      ]
+    },
+    {
+      "dayNumber": 336,
+      "title": "Day 336",
+      "readings": [
+        "Acts 15",
+        "1 Corinthians 11-12",
+        "Proverbs 28:10-12"
+      ]
+    },
+    {
+      "dayNumber": 337,
+      "title": "Day 337",
+      "readings": [
+        "Acts 16",
+        "1 Corinthians 13-14",
+        "Proverbs 28:13-15"
+      ]
+    },
+    {
+      "dayNumber": 338,
+      "title": "Day 338",
+      "readings": [
+        "Acts 17",
+        "1 Corinthians 15",
+        "Proverbs 28:16-18"
+      ]
+    },
+    {
+      "dayNumber": 339,
+      "title": "Day 339",
+      "readings": [
+        "Acts 18",
+        "1 Corinthians 16",
+        "Proverbs 28:19-21"
+      ]
+    },
+    {
+      "dayNumber": 340,
+      "title": "Day 340",
+      "readings": [
+        "Acts 19",
+        "2 Corinthians 1-2",
+        "Proverbs 28:22-24"
+      ]
+    },
+    {
+      "dayNumber": 341,
+      "title": "Day 341",
+      "readings": [
+        "Acts 20",
+        "2 Corinthians 3-5",
+        "Proverbs 28:25-28"
+      ]
+    },
+    {
+      "dayNumber": 342,
+      "title": "Day 342",
+      "readings": [
+        "Acts 21",
+        "2 Corinthians 6-8",
+        "Proverbs 29:1-4"
+      ]
+    },
+    {
+      "dayNumber": 343,
+      "title": "Day 343",
+      "readings": [
+        "Acts 22",
+        "2 Corinthians 9-11",
+        "Proverbs 29:5-7"
+      ]
+    },
+    {
+      "dayNumber": 344,
+      "title": "Day 344",
+      "readings": [
+        "Acts 23",
+        "2 Corinthians 12-13",
+        "Proverbs 29:8-11"
+      ]
+    },
+    {
+      "dayNumber": 345,
+      "title": "Day 345",
+      "readings": [
+        "Acts 24",
+        "Galatians 1-3",
+        "Proverbs 29:12-14"
+      ]
+    },
+    {
+      "dayNumber": 346,
+      "title": "Day 346",
+      "readings": [
+        "Acts 25",
+        "Galatians 4-6",
+        "Proverbs 29:15-17"
+      ]
+    },
+    {
+      "dayNumber": 347,
+      "title": "Day 347",
+      "readings": [
+        "Acts 26",
+        "Ephesians 1-3",
+        "Proverbs 29:18-21"
+      ]
+    },
+    {
+      "dayNumber": 348,
+      "title": "Day 348",
+      "readings": [
+        "Acts 27",
+        "Ephesians 4-6",
+        "Proverbs 29:22-24"
+      ]
+    },
+    {
+      "dayNumber": 349,
+      "title": "Day 349",
+      "readings": [
+        "Acts 28",
+        "Philippians 1-2",
+        "Proverbs 29:25-27"
+      ]
+    },
+    {
+      "dayNumber": 350,
+      "title": "Day 350",
+      "readings": [
+        "James 1-2",
+        "Philippians 3-4",
+        "Proverbs 30: 1-6"
+      ]
+    },
+    {
+      "dayNumber": 351,
+      "title": "Day 351",
+      "readings": [
+        "James 3-5",
+        "Colossians 1-2",
+        "Proverbs 30:7-9"
+      ]
+    },
+    {
+      "dayNumber": 352,
+      "title": "Day 352",
+      "readings": [
+        "1 Peter 1-2",
+        "Colossians 3-4",
+        "Proverbs 30:10-14"
+      ]
+    },
+    {
+      "dayNumber": 353,
+      "title": "Day 353",
+      "readings": [
+        "1 Peter 3-5",
+        "1 Thessalonians 1-3",
+        "Proverbs 30:15-16"
+      ]
+    },
+    {
+      "dayNumber": 354,
+      "title": "Day 354",
+      "readings": [
+        "2 Peter 1-3",
+        "1 Thessalonians 4-5",
+        "Proverbs 30:17-19"
+      ]
+    },
+    {
+      "dayNumber": 355,
+      "title": "Day 355",
+      "readings": [
+        "1 John 1-3",
+        "2 Thessalonians 1-3",
+        "Proverbs 30:20-23"
+      ]
+    },
+    {
+      "dayNumber": 356,
+      "title": "Day 356",
+      "readings": [
+        "1 John 4-5",
+        "1 Timothy 1-3",
+        "Proverbs 30:24-28"
+      ]
+    },
+    {
+      "dayNumber": 357,
+      "title": "Day 357",
+      "readings": [
+        "2 John, 3 John",
+        "1 Timothy 4-6",
+        "Proverbs 30:29-33"
+      ]
+    },
+    {
+      "dayNumber": 358,
+      "title": "Day 358",
+      "readings": [
+        "Jude",
+        "2 Timothy 1-2",
+        "Proverbs 31: 1-7"
+      ]
+    },
+    {
+      "dayNumber": 359,
+      "title": "Day 359",
+      "readings": [
+        "Revelation 1-3",
+        "2 Timothy 3-4",
+        "Proverbs 31:8-9"
+      ]
+    },
+    {
+      "dayNumber": 360,
+      "title": "Day 360",
+      "readings": [
+        "Revelation 4-7",
+        "Titus 1-3",
+        "Proverbs 31:10-15"
+      ]
+    },
+    {
+      "dayNumber": 361,
+      "title": "Day 361",
+      "readings": [
+        "Revelation 8-11",
+        "Philemon",
+        "Proverbs 31:16-18"
+      ]
+    },
+    {
+      "dayNumber": 362,
+      "title": "Day 362",
+      "readings": [
+        "Revelation 12-14",
+        "Hebrews 1-4",
+        "Proverbs 31:19-22"
+      ]
+    },
+    {
+      "dayNumber": 363,
+      "title": "Day 363",
+      "readings": [
+        "Revelation 15-17",
+        "Hebrews 5-8",
+        "Proverbs 31:23-25"
+      ]
+    },
+    {
+      "dayNumber": 364,
+      "title": "Day 364",
+      "readings": [
+        "Revelation 18-20",
+        "Hebrews 9-10",
+        "Proverbs 31:26-29"
+      ]
+    },
+    {
+      "dayNumber": 365,
+      "title": "Day 365",
+      "readings": [
+        "Revelation 21-22",
+        "Hebrews 11-13",
+        "Proverbs 31:30-31"
+      ]
+    }
+  ]
+}

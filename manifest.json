@@ -1,0 +1,10 @@
+{
+  "name": "Study Plan",
+  "short_name": "Study Plan",
+  "description": "Track reading plans (e.g. Bible in a Year). Import, progress, notes.",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#1a1a2e",
+  "theme_color": "#1a1a2e",
+  "orientation": "portrait-primary"
+}
