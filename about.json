@@ -1,0 +1,16 @@
+{
+  "name": "Study Plan",
+  "version": "1.0",
+  "description": "Track reading plans (e.g. Bible in a Year). Import plans, mark progress, add notes. Data stays in your browser.",
+  "changelog": [
+    "Multiple plans",
+    "Import/export plans and progress",
+    "Today's day and progress bar",
+    "Rename plans, export plan-only for sharing",
+    "Sample Bible in a Year plan"
+  ],
+  "community": {
+    "label": "Share study plans or submit feedback (GitHub Issues)",
+    "url": "https://github.com/pihao789/study-plan-web/issues"
+  }
+}

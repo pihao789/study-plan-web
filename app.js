@@ -100,6 +100,18 @@
     render();
   }, true);
 
+  // Delegated handler for data-goto (nav Settings, footer About)
+  document.body.addEventListener('click', function (ev) {
+    var link = ev.target.closest && ev.target.closest('[data-goto]');
+    if (!link) return;
+    ev.preventDefault();
+    var screen = link.getAttribute('data-goto');
+    if (screen === 'data' || screen === 'about') {
+      view = { screen: screen };
+      render();
+    }
+  });
+
   function emit() {
     saveState(state);
     render();
@@ -243,7 +255,7 @@
       : '';
     const titleContent = titleHtml !== undefined ? titleHtml : escapeHtml(title);
     const right = view.screen === 'home' ? `${extraRight || ''} ${gear}`.trim() : `${back} ${gear} ${extraRight || ''}`.trim();
-    return `<nav><span class="title">${titleContent}</span><div class="nav-right">${right}</div></nav>`;
+    return `<nav><span class="nav-title-wrap"><span class="nav-app-icon" aria-hidden="true">📖</span><span class="title">${titleContent}</span></span><div class="nav-right">${right}</div></nav>`;
   }
 
   function startTitleEdit(titleEl, onSave) {
@@ -403,11 +415,6 @@
         }
       };
     });
-    appEl.querySelector('[data-goto="data"]').onclick = (e) => {
-      e.preventDefault();
-      view = { screen: 'data' };
-      render();
-    };
     const clearEl = appEl.querySelector('[data-action="clear"]');
     if (clearEl) {
       clearEl.onclick = (e) => {
@@ -709,7 +716,6 @@
           <li><button type="button" data-action="export">Export data (plans + progress)</button></li>
           <li><button type="button" data-action="import">Import (plan and/or progress from file)</button></li>
           <li class="footer">Data is stored in your browser. Export to back up; import to restore.</li>
-          <li><a href="#" data-goto="about">About</a></li>
           <li><button type="button" class="danger" data-action="clear">Clear all plans and progress</button></li>
         </ul>
         <input type="file" id="f-import" accept=".json" />
@@ -744,47 +750,70 @@
         render();
       }
     };
-    appEl.querySelector('[data-goto="about"]').onclick = (e) => {
-      e.preventDefault();
-      view = { screen: 'about' };
-      render();
-    };
     appEl.querySelector('button[data-action="back"]').onclick = () => {
       view = { screen: 'home' };
       render();
     };
   }
 
-  function renderAbout() {
+
+  var aboutData = null;
+  function renderAboutFromData(data) {
+    if (!data) {
+      appEl.innerHTML = nav('About') +
+        '<div class="screen"><p class="about-text">About information could not be loaded.</p></div>';
+      appEl.querySelector('button[data-action="back"]').onclick = function () {
+        view = { screen: 'data' };
+        render();
+      };
+      return;
+    }
+    var d = data;
+    var changelogHtml = Array.isArray(d.changelog) ? d.changelog.map(function (line) { return '• ' + escapeHtml(line); }).join('\n') : '';
+    var communityHtml = d.community && d.community.url
+      ? '<a href="' + escapeHtml(d.community.url) + '" target="_blank" rel="noopener">' + escapeHtml(d.community.label || d.community.url) + '</a>'
+      : '';
     appEl.innerHTML = `
       ${nav('About')}
       <div class="screen">
         <div class="about-header">
           <span class="icon">📖</span>
           <div>
-            <strong>Study Plan</strong>
-            <div class="version">Version 1.0</div>
+            <strong>${escapeHtml(d.name)}</strong>
+            <div class="version">Version ${escapeHtml(String(d.version))}</div>
           </div>
         </div>
-        <p class="about-text">Track reading plans (e.g. Bible in a Year). Import plans, mark progress, add notes. Data stays in your browser.</p>
+        <p class="about-text">${escapeHtml(d.description)}</p>
         <div class="section">
           <div class="section-title">Changelog</div>
-          <p class="changelog">• Multiple plans
-• Import/export plans and progress
-• Today’s day and progress bar
-• Rename plans, export plan-only for sharing
-• Sample Bible in a Year plan</p>
+          <p class="changelog">${changelogHtml}</p>
         </div>
         <div class="section">
           <div class="section-title">Community</div>
-          <p><a href="https://groups.google.com/g/studyplan-app" target="_blank" rel="noopener">Share & find study plans (Google Group)</a></p>
+          <p>${communityHtml}</p>
         </div>
       </div>
     `;
-    appEl.querySelector('button[data-action="back"]').onclick = () => {
+    appEl.querySelector('button[data-action="back"]').onclick = function () {
       view = { screen: 'data' };
       render();
     };
+  }
+  function renderAbout() {
+    if (aboutData) {
+      renderAboutFromData(aboutData);
+      return;
+    }
+    renderAboutFromData(null);
+    fetch('about.json')
+      .then(function (r) { return r.ok ? r.json() : null; })
+      .then(function (data) {
+        if (data && view.screen === 'about') {
+          aboutData = data;
+          renderAboutFromData(data);
+        }
+      })
+      .catch(function () {});
   }
 
   render();

@@ -18,7 +18,7 @@ Track reading plans (e.g. Bible in a Year), mark progress, add notes. **Works in
 
 ## Deploy (free)
 
-- **GitHub Pages**: push this folder to a repo, enable Pages, set source to main branch / root or `docs` if you put the files in `docs/`.
+- **GitHub Pages**: In the repo go to **Settings** → **Pages**. Under **Source** choose **Deploy from a branch**. Pick branch `main` (or `master`) and folder **/ (root)**. Save. The site will be at `https://<username>.github.io/<repo-name>/` after a minute or two.
 - **Netlify / Vercel**: drag the folder or connect the repo; no build step.
 
 Use **HTTPS** in production so the service worker and “Add to Home Screen” work.
