@@ -61,6 +61,93 @@ body {
 }
 .app-footer a:hover { text-decoration: underline; }
 .app-footer-sep { margin: 0 0.5rem; user-select: none; }
+body.pin-gate-active .app-footer { display: none; }
+
+/* PIN gate */
+.pin-gate {
+  position: fixed;
+  inset: 0;
+  background: var(--bg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: var(--space);
+  z-index: 100;
+}
+.pin-gate-card {
+  width: 100%;
+  max-width: 320px;
+  background: var(--card);
+  border-radius: var(--radius);
+  padding: 2rem;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  border: 1px solid var(--border);
+}
+.pin-gate-icon {
+  display: block;
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 0.75rem;
+  opacity: 0.9;
+}
+.pin-gate-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin: 0 0 1.25rem;
+  text-align: center;
+  letter-spacing: -0.02em;
+}
+.pin-form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  margin-bottom: 1.25rem;
+}
+.pin-label {
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--muted);
+}
+.pin-input {
+  font: inherit;
+  font-size: 18px;
+  padding: 12px 14px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  background: var(--bg);
+  color: var(--text);
+  letter-spacing: 0.2em;
+  text-align: center;
+}
+.pin-input:focus {
+  outline: none;
+  border-color: var(--accent);
+  box-shadow: 0 0 0 2px var(--accent-soft);
+}
+.pin-error {
+  font-size: 14px;
+  color: var(--danger);
+  margin: -0.5rem 0 0.5rem;
+  text-align: center;
+}
+.pin-actions {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+.pin-back-btn {
+  font: inherit;
+  font-size: 14px;
+  color: var(--muted);
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 8px 12px;
+}
+.pin-back-btn:hover { color: var(--accent); }
+.pin-submit-btn { min-width: 120px; }
 
 /* Nav: minimal bar */
 nav {
@@ -73,6 +160,43 @@ nav {
   position: sticky;
   top: 0;
   z-index: 10;
+}
+nav.nav-two-row {
+  flex-direction: column;
+  align-items: stretch;
+  gap: 10px;
+  padding: 12px var(--space) 14px;
+}
+nav.nav-two-row .nav-row-1 {
+  flex-shrink: 0;
+  min-width: 0;
+}
+nav.nav-two-row .nav-row-1 .nav-title-wrap {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  min-width: 0;
+  max-width: 100%;
+}
+nav.nav-two-row .nav-row-1 .title {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  min-width: 0;
+  max-width: 100%;
+}
+nav.nav-two-row .nav-row-1 .title .plan-title-text {
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+nav.nav-two-row .nav-row-2 {
+  flex-shrink: 0;
+}
+nav.nav-two-row .nav-row-2 .nav-right {
+  flex-wrap: wrap;
+  gap: 4px;
 }
 nav .nav-title-wrap { display: inline-flex; align-items: center; gap: 8px; }
 nav .nav-app-icon { font-size: 22px; line-height: 1; opacity: 0.9; }

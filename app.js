@@ -2,7 +2,15 @@
   'use strict';
 
   const STORAGE_KEY = 'studyplan_data';
+  const PIN_STORAGE_KEY = 'studyplan_pin_hash';
   const SAMPLE_PLAN_URL = 'plans/bible-in-a-year-365.json';
+
+  function pinHash(pin) {
+    return String(pin).split('').reduce(function (h, c) { return ((h << 5) - h) + c.charCodeAt(0) | 0; }, 0).toString(36);
+  }
+  function getStoredPinHash() { return localStorage.getItem(PIN_STORAGE_KEY); }
+  function setStoredPinHash(h) { localStorage.setItem(PIN_STORAGE_KEY, h); }
+  function clearStoredPinHash() { localStorage.removeItem(PIN_STORAGE_KEY); }
 
   function uid() {
     return Math.random().toString(36).slice(2) + Date.now().toString(36);
@@ -73,7 +81,8 @@
   }
 
   let state = loadState();
-  let view = { screen: 'home', planId: null, dayNumber: null };
+  let view = { screen: 'home', planId: null, dayNumber: null, pinScreen: null };
+  let unlockedSession = false;
   const appEl = document.getElementById('app');
 
   // Delegated handler for day-list nav icon actions
@@ -110,6 +119,17 @@
       view = { screen: screen };
       render();
     }
+  });
+
+  // Delegated handler for lock app (visible on all views when PIN is set)
+  document.body.addEventListener('click', function (ev) {
+    var btn = ev.target.closest && ev.target.closest('[data-action="lock-app"]');
+    if (!btn) return;
+    ev.preventDefault();
+    ev.stopPropagation();
+    unlockedSession = false;
+    view.pinScreen = 'enter';
+    render();
   });
 
   function emit() {
@@ -220,6 +240,16 @@
   }
 
   function render() {
+    if (view.pinScreen) {
+      renderPinGate();
+      return;
+    }
+    if (getStoredPinHash() && !unlockedSession) {
+      view.pinScreen = 'enter';
+      renderPinGate();
+      return;
+    }
+    document.body.classList.remove('pin-gate-active');
     if (state.plans.length === 0 && view.screen !== 'data' && view.screen !== 'about') {
       renderNoPlan();
       return;
@@ -246,6 +276,11 @@
     }
   }
 
+  function lockNavButton() {
+    if (!getStoredPinHash() || !unlockedSession) return '';
+    return '<button type="button" class="nav-link-icon" data-action="lock-app" title="Lock app" aria-label="Lock app"><span class="nav-icon-char" aria-hidden="true">🔒</span><span class="nav-link-text">Lock</span></button>';
+  }
+
   function nav(title, extraRight, titleHtml) {
     const back = view.screen !== 'home'
       ? '<button type="button" class="nav-back-btn" data-action="back" title="Back" aria-label="Back"><span class="nav-back-arrow" aria-hidden="true">⬅</span><span class="nav-back-text">Back</span></button>'
@@ -253,9 +288,101 @@
     const gear = view.screen === 'home'
       ? '<a href="#" class="nav-link-icon" data-goto="data" title="Settings" aria-label="Settings"><span class="nav-icon-char" aria-hidden="true">⚙</span><span class="nav-link-text">Settings</span></a>'
       : '';
+    const lockBtn = lockNavButton();
     const titleContent = titleHtml !== undefined ? titleHtml : escapeHtml(title);
-    const right = view.screen === 'home' ? `${extraRight || ''} ${gear}`.trim() : `${back} ${gear} ${extraRight || ''}`.trim();
+    const right = view.screen === 'home'
+      ? [lockBtn, extraRight, gear].filter(Boolean).join(' ').trim()
+      : [lockBtn, back, gear, extraRight].filter(Boolean).join(' ').trim();
     return `<nav><span class="nav-title-wrap"><span class="nav-app-icon" aria-hidden="true">📖</span><span class="title">${titleContent}</span></span><div class="nav-right">${right}</div></nav>`;
+  }
+
+  function renderPinGate() {
+    var mode = view.pinScreen;
+    var titles = { enter: 'Enter PIN', create: 'Set PIN', change: 'Change PIN', remove: 'Remove PIN' };
+    var title = titles[mode] || 'PIN';
+    var backHtml = mode === 'create' ? '<button type="button" class="pin-back-btn" data-pin-action="cancel-create">Cancel</button>' : '';
+    var fields = '';
+    if (mode === 'enter') {
+      fields = '<label class="pin-label">PIN</label><input type="password" id="pin-input" class="pin-input" inputmode="numeric" pattern="[0-9]*" maxlength="8" placeholder="••••" autocomplete="off" />';
+    } else if (mode === 'create') {
+      fields = '<label class="pin-label">New PIN (4–8 digits)</label><input type="password" id="pin-new" class="pin-input" inputmode="numeric" pattern="[0-9]*" maxlength="8" placeholder="••••" autocomplete="off" />' +
+        '<label class="pin-label">Confirm PIN</label><input type="password" id="pin-confirm" class="pin-input" inputmode="numeric" pattern="[0-9]*" maxlength="8" placeholder="••••" autocomplete="off" />';
+    } else if (mode === 'change') {
+      fields = '<label class="pin-label">Current PIN</label><input type="password" id="pin-current" class="pin-input" inputmode="numeric" pattern="[0-9]*" maxlength="8" placeholder="••••" autocomplete="off" />' +
+        '<label class="pin-label">New PIN (4–8 digits)</label><input type="password" id="pin-new" class="pin-input" inputmode="numeric" pattern="[0-9]*" maxlength="8" placeholder="••••" autocomplete="off" />' +
+        '<label class="pin-label">Confirm PIN</label><input type="password" id="pin-confirm" class="pin-input" inputmode="numeric" pattern="[0-9]*" maxlength="8" placeholder="••••" autocomplete="off" />';
+    } else if (mode === 'remove') {
+      fields = '<label class="pin-label">Current PIN</label><input type="password" id="pin-input" class="pin-input" inputmode="numeric" pattern="[0-9]*" maxlength="8" placeholder="••••" autocomplete="off" />';
+    }
+    var submitLabel = (mode === 'enter' ? 'Unlock' : mode === 'remove' ? 'Remove PIN' : 'Save');
+    appEl.innerHTML = '<div class="pin-gate">' +
+      '<div class="pin-gate-card">' +
+      '<span class="pin-gate-icon" aria-hidden="true">🔒</span>' +
+      '<h2 class="pin-gate-title">' + escapeHtml(title) + '</h2>' +
+      '<p id="pin-error" class="pin-error" style="display:none"></p>' +
+      '<form class="pin-form" id="pin-form">' + fields + '</form>' +
+      '<div class="pin-actions">' + backHtml + '<button type="button" class="btn btn-primary pin-submit-btn" id="pin-submit">' + escapeHtml(submitLabel) + '</button></div>' +
+      '</div></div>';
+    document.body.classList.add('pin-gate-active');
+    var form = appEl.querySelector('#pin-form');
+    var errEl = appEl.querySelector('#pin-error');
+    function showError(msg) {
+      errEl.textContent = msg || '';
+      errEl.style.display = msg ? 'block' : 'none';
+    }
+    function getPinInput() { return appEl.querySelector('#pin-input'); }
+    function getPinNew() { return appEl.querySelector('#pin-new'); }
+    function getPinConfirm() { return appEl.querySelector('#pin-confirm'); }
+    function getPinCurrent() { return appEl.querySelector('#pin-current'); }
+    appEl.querySelector('#pin-submit').onclick = function () {
+      showError('');
+      if (mode === 'enter') {
+        var pin = (getPinInput().value || '').trim();
+        if (pin.length < 4) { showError('Enter at least 4 digits.'); return; }
+        if (pinHash(pin) !== getStoredPinHash()) { showError('Wrong PIN.'); return; }
+        unlockedSession = true;
+        view.pinScreen = null;
+        render();
+      } else if (mode === 'create') {
+        var newPin = (getPinNew().value || '').trim();
+        var conf = (getPinConfirm().value || '').trim();
+        if (newPin.length < 4) { showError('PIN must be 4–8 digits.'); return; }
+        if (newPin !== conf) { showError('PINs do not match.'); return; }
+        setStoredPinHash(pinHash(newPin));
+        unlockedSession = true;
+        view.pinScreen = null;
+        render();
+      } else if (mode === 'change') {
+        var cur = (getPinCurrent().value || '').trim();
+        if (pinHash(cur) !== getStoredPinHash()) { showError('Wrong current PIN.'); return; }
+        var newPin = (getPinNew().value || '').trim();
+        var conf = (getPinConfirm().value || '').trim();
+        if (newPin.length < 4) { showError('New PIN must be 4–8 digits.'); return; }
+        if (newPin !== conf) { showError('New PINs do not match.'); return; }
+        setStoredPinHash(pinHash(newPin));
+        view.pinScreen = null;
+        render();
+      } else if (mode === 'remove') {
+        var pin = (getPinInput().value || '').trim();
+        if (pinHash(pin) !== getStoredPinHash()) { showError('Wrong PIN.'); return; }
+        clearStoredPinHash();
+        view.pinScreen = null;
+        render();
+      }
+    };
+    var cancelBtn = appEl.querySelector('[data-pin-action="cancel-create"]');
+    if (cancelBtn) {
+      cancelBtn.onclick = function () {
+        view.pinScreen = null;
+        document.body.classList.remove('pin-gate-active');
+        render();
+      };
+    }
+    if (form) {
+      form.onsubmit = function (e) { e.preventDefault(); appEl.querySelector('#pin-submit').click(); };
+      var firstInput = form.querySelector('input');
+      if (firstInput) firstInput.focus();
+    }
   }
 
   function startTitleEdit(titleEl, onSave) {
@@ -564,8 +691,15 @@
       '<button type="button" class="nav-icon-btn danger-btn" data-action="remove-plan-nav" title="Remove plan" aria-label="Remove plan"><span class="nav-icon-char" aria-hidden="true">🗑</span><span class="nav-icon-hint">Remove</span></button>' +
       '</div>';
     const navTitleHtml = '<span class="plan-title-text">' + escapeHtml(plan.title) + '</span><button type="button" class="edit-title-btn nav-edit-btn" aria-label="Rename plan">✎</button>';
+    const backBtn = '<button type="button" class="nav-back-btn" data-action="back" title="Back" aria-label="Back"><span class="nav-back-arrow" aria-hidden="true">⬅</span><span class="nav-back-text">Back</span></button>';
+    const gearLink = '<a href="#" class="nav-link-icon" data-goto="data" title="Settings" aria-label="Settings"><span class="nav-icon-char" aria-hidden="true">⚙</span><span class="nav-link-text">Settings</span></a>';
+    const lockBtnDays = lockNavButton();
+    const daysNavHtml = '<nav class="nav-two-row">' +
+      '<div class="nav-row-1"><span class="nav-title-wrap"><span class="nav-app-icon" aria-hidden="true">📖</span><span class="title">' + navTitleHtml + '</span></span></div>' +
+      '<div class="nav-row-2"><div class="nav-right">' + lockBtnDays + backBtn + gearLink + dayListMenuHtml + '</div></div>' +
+      '</nav>';
     appEl.innerHTML = `
-      ${nav(plan.title, dayListMenuHtml, navTitleHtml)}
+      ${daysNavHtml}
       <div class="screen" id="day-list-top">
         <p class="days-list-hint">${pendingDays.length ? 'Days not yet completed are listed first.' : 'All days completed! Expand below to review.'}${jumpToCompletedLink}</p>
         <ul class="list">
@@ -709,6 +843,17 @@
   }
 
   function renderData() {
+    var hasPin = !!getStoredPinHash();
+    var pinItems = '';
+    if (!hasPin) {
+      pinItems = '<li><button type="button" data-action="set-pin">Set PIN</button></li>';
+    } else {
+      pinItems = '<li><button type="button" data-action="change-pin">Change PIN</button></li>' +
+        '<li><button type="button" data-action="remove-pin">Remove PIN</button></li>';
+      if (unlockedSession) {
+        pinItems += '<li><button type="button" data-action="lock-app">Lock app</button></li>';
+      }
+    }
     appEl.innerHTML = `
       ${nav('Settings')}
       <div class="screen">
@@ -716,6 +861,7 @@
           <li><button type="button" data-action="export">Export data (plans + progress)</button></li>
           <li><button type="button" data-action="import">Import (plan and/or progress from file)</button></li>
           <li class="footer">Data is stored in your browser. Export to back up; import to restore.</li>
+          ${pinItems}
           <li><button type="button" class="danger" data-action="clear">Clear all plans and progress</button></li>
         </ul>
         <input type="file" id="f-import" accept=".json" />
@@ -750,6 +896,14 @@
         render();
       }
     };
+    var setPinBtn = appEl.querySelector('[data-action="set-pin"]');
+    if (setPinBtn) setPinBtn.onclick = function () { view.pinScreen = 'create'; render(); };
+    var changePinBtn = appEl.querySelector('[data-action="change-pin"]');
+    if (changePinBtn) changePinBtn.onclick = function () { view.pinScreen = 'change'; render(); };
+    var removePinBtn = appEl.querySelector('[data-action="remove-pin"]');
+    if (removePinBtn) removePinBtn.onclick = function () { view.pinScreen = 'remove'; render(); };
+    var lockBtn = appEl.querySelector('[data-action="lock-app"]');
+    if (lockBtn) lockBtn.onclick = function () { unlockedSession = false; view.pinScreen = 'enter'; render(); };
     appEl.querySelector('button[data-action="back"]').onclick = () => {
       view = { screen: 'home' };
       render();
